@@ -1,12 +1,51 @@
+:root{
+    --header_color: #5a2b7e;
+    --title_btn: #eea821;
+    --author_btn: #87a9f2;
+    --cat_btn: #63cc80;
+}
+
+
+
 .col-centered{
     float: none;
     margin: 0 auto;
 
+}
+
+body{
+    overflow: hidden;
+}
+
+.first{
+    background-color: var(--header_color);
+    height: 30vh;
+    position: relative;
+}
+
+.btn-lg {
+    width: 140px;
+    background-color: slateblue;
+   
+
 
 }
-.btn-outline-secondary{
-    background-color: peachpuff;
+.atbot{
+    position : absolute;
+    bottom   : 10px;
+    right: 0;
+    left:0;
 }
-.header{
-    background-color: plum;
+.sec{
+    background-color: #e3caeb;
+}
+
+.btn1{
+    background-color: var(--title_btn);
+}
+.btn2{
+    background-color: var(--author_btn);
+}
+.btn3{
+    background-color: var(--cat_btn);
 }
